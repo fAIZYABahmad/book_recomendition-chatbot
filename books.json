@@ -1,0 +1,254 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "description": "A gripping novel that explores racism, injustice, and morality through the eyes of a young girl in the American South."
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "description": "A chilling dystopian novel about a totalitarian regime that exercises total control over its citizens, erasing history and individuality."
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "description": "A classic romance that explores issues of class, family, and marriage through the story of Elizabeth Bennet and Mr. Darcy."
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Fiction",
+        "description": "A tragic love story set in the Jazz Age, examining wealth, social class, and the American Dream."
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "description": "A coming-of-age novel about Holden Caulfield, a disillusioned teenager who struggles with the loss of innocence."
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "description": "The prelude to 'The Lord of the Rings,' following Bilbo Baggins as he embarks on a journey to reclaim stolen treasure."
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "description": "A young wizard, Harry Potter, discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": "Philosophical Fiction",
+        "description": "A philosophical tale of a young shepherd’s quest to find treasure and fulfill his personal legend."
+    },
+    {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "genre": "Historical Fiction",
+        "description": "Set in Nazi Germany, the story follows a young girl who steals books and shares them with others while living through the horrors of war."
+    },
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "genre": "Non-Fiction",
+        "description": "A sweeping history of the human species, tracing our origins and evolution from ancient times to the present."
+    },
+    {
+        "title": "Educated",
+        "author": "Tara Westover",
+        "genre": "Memoir",
+        "description": "A powerful memoir of a woman who grows up in a strict, isolated family and pursues education against all odds."
+    },
+    {
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "genre": "Memoir",
+        "description": "The memoir of the former First Lady, offering insights into her life, values, and the challenges of being in the public eye."
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "description": "A vision of a future society controlled by science and technology, where individuality is sacrificed for stability."
+    },
+    {
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "genre": "Political Satire",
+        "description": "A satire of totalitarian regimes, where farm animals overthrow their human masters but eventually become indistinguishable from them."
+    },
+    {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "genre": "Post-Apocalyptic Fiction",
+        "description": "A harrowing story of a father and son navigating a desolate, post-apocalyptic world, trying to survive and retain their humanity."
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science Fiction",
+        "description": "A complex science fiction novel set on a desert planet where the struggle for control over the precious resource 'spice' shapes the future of humanity."
+    },
+    {
+        "title": "Ender's Game",
+        "author": "Orson Scott Card",
+        "genre": "Science Fiction",
+        "description": "A young genius is recruited into a military academy to train for an interstellar war, where he faces moral and strategic dilemmas."
+    },
+    {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "genre": "Science Fiction",
+        "description": "The story of astronaut Mark Watney, stranded on Mars and using his ingenuity to survive and communicate with Earth."
+    },
+    {
+        "title": "Goodnight Moon",
+        "author": "Margaret Wise Brown",
+        "genre": "Children's Literature",
+        "description": "A beloved children's book where a little bunny says goodnight to everything in his room before going to sleep."
+    },
+    {
+        "title": "Charlotte's Web",
+        "author": "E.B. White",
+        "genre": "Children's Literature",
+        "description": "A touching story of friendship between a pig named Wilbur and a spider named Charlotte, who saves him from slaughter."
+    },
+    {
+        "title": "Percy Jackson and the Lightning Thief",
+        "author": "Rick Riordan",
+        "genre": "Fantasy",
+        "description": "A modern twist on Greek mythology, following Percy Jackson, a boy who discovers he's the son of Poseidon."
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "genre": "Dystopian",
+        "description": "In a dystopian future, Katniss Everdeen volunteers to take her sister's place in a deadly competition for survival."
+    },
+    {
+        "title": "Divergent",
+        "author": "Veronica Roth",
+        "genre": "Dystopian",
+        "description": "In a society divided into factions, a young woman discovers she is 'divergent,' a person who doesn't fit into any one category."
+    },
+    {
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "genre": "Romance",
+        "description": "A heartfelt story of two teenagers who meet at a cancer support group and fall in love despite their illness."
+    },
+    {
+        "title": "Me Before You",
+        "author": "Jojo Moyes",
+        "genre": "Romance",
+        "description": "The story of a caregiver and a quadriplegic man who develop a deep, transformative bond despite their circumstances."
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Horror",
+        "description": "A gothic novel about a scientist who creates a creature that turns against him, exploring themes of ambition, isolation, and responsibility."
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "genre": "Horror",
+        "description": "A dark, atmospheric novel that tells the tale of Count Dracula’s attempt to move from Transylvania to England and spread the undead curse."
+    },
+    {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "genre": "Horror",
+        "description": "A family isolated in a haunted hotel struggles with the psychological and supernatural horrors that threaten their lives."
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "Philosophical Fiction",
+        "description": "A moral tale about a man whose portrait ages while he remains youthful, exploring vanity, corruption, and the consequences of a life of excess."
+    },
+    {
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "genre": "Non-Fiction",
+        "description": "A renowned scientist’s attempt to explain complex concepts like black holes, the Big Bang, and time to the general public."
+    },
+    {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "genre": "Fiction",
+        "description": "A coming-of-age novel about the struggles of a group of teenagers from different social classes in a small town."
+    },
+    {
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "author": "C.S. Lewis",
+        "genre": "Fantasy",
+        "description": "Four siblings discover a magical land in a wardrobe, where they must help defeat an evil queen and bring peace to Narnia."
+    },
+    {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "description": "The epic tale of Captain Ahab’s obsessive quest to kill the white whale, Moby Dick."
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "description": "Holden Caulfield’s story of teenage rebellion, exploring the pain and confusion of adolescence."
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "H.G. Wells",
+        "genre": "Science Fiction",
+        "description": "A scientist discovers how to make himself invisible, but the power corrupts him and leads to his downfall."
+    },
+    {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "genre": "Children's Literature",
+        "description": "A young girl discovers a hidden, neglected garden and begins to bring it back to life, discovering herself in the process."
+    },
+    {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "genre": "Fiction",
+        "description": "A story of friendship and betrayal, set against the backdrop of political upheaval in Afghanistan."
+    },
+    {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": "Fantasy",
+        "description": "A magical tale of two illusionists competing in a mysterious circus, with romance and dark magic intertwined."
+    },
+    {
+        "title": "The Help",
+        "author": "Kathryn Stockett",
+        "genre": "Historical Fiction",
+        "description": "The story of three women in the South during the Civil Rights Movement, who work together to write a book about the lives of domestic workers."
+    },
+    {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "genre": "Thriller",
+        "description": "A psychological thriller about a woman who gets involved in a missing persons investigation after witnessing something suspicious during her daily train ride."
+    },
+    {
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "genre": "Mystery",
+        "description": "A coming-of-age mystery about a young girl who grows up in the wild marshlands of North Carolina and becomes entangled in a murder investigation."
+    },
+    {
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "genre": "Fiction",
+        "description": "The story of four sisters navigating their lives, loves, and dreams during the American Civil War."
+    }
+]

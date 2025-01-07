@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommender Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="/static/images/istockphoto-1060696342-612x612.jpg" alt="Chatbot Icon">
+            <h1>Book Recommendation Chatbot</h1>
+        </div>
+        <div id="chat" class="chat-box"></div>
+        <div style="display: flex;">
+            <input type="text" id="user_input" class="user-input" placeholder="Ask a question or request a book..." onkeydown="if(event.key === 'Enter') document.querySelector('.send-btn').click()">
+            <button onclick="sendMessage()" class="send-btn">Send</button>
+        </div>
+    </div>
+    <script>
+        function sendMessage() {
+            var userInput = document.getElementById("user_input").value;
+            var chatDiv = document.getElementById("chat");
+
+            // Display user query
+            chatDiv.innerHTML += `<div class="user-message">User: ${userInput}</div>`;
+
+            fetch('/get_books', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({user_input: userInput})
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    chatDiv.innerHTML += `<div class="bot-message">${data.message}</div>`;
+
+                    if (data.book_info) {
+                        // Add heading for Book Description
+                        let bookInfoHtml = `
+                            <div class="book-info">
+                                <h3>Book Description:</h3> <!-- Added Heading -->
+                                <p>${data.book_info.description}</p>
+                        `;
+
+                        // Display book image if available
+                        if (data.book_info.image_url) {
+                            bookInfoHtml += `<div class="book-image"><img src="${data.book_info.image_url}" alt="Book Image" style="max-width: 150px; max-height: 200px;"></div>`;
+                        }
+
+                        bookInfoHtml += `</div>`; // Closing the book-info div
+                        chatDiv.innerHTML += bookInfoHtml;  // Add it to the chat
+                    }
+                } else {
+                    chatDiv.innerHTML += `<div class="bot-message">${data.message}</div>`;
+                }
+            });
+
+            document.getElementById("user_input").value = '';
+            chatDiv.scrollTop = chatDiv.scrollHeight; // Scroll to the bottom
+        }
+    </script>
+
+      
+   
+</body>
+</html>
